@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="format-detection" content="telephone=no,email=no,address=no">
+  <meta name="description" content="Northern Point Accountants is a Chatswood accounting practice providing tax, bookkeeping, business advisory and SMSF services.">
+  <title>Northern Point Accountants Pty Ltd | Chatswood, Sydney</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font: 100%/1.65 "Segoe UI", system-ui, sans-serif;
+      color: #374956;
+      background: #fff;
+      --ink: #172a3b;
+      --rule: #c9d4dd;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    .wrap { width: min(calc(100% - 2.5rem), 65rem); margin-inline: auto; }
+    header { padding-block: 1.25rem; color: var(--ink); font-weight: 700; }
+    .intro { padding-block: clamp(3.75rem, 9vw, 7.5rem); background: #17354a; color: #fff; }
+    h1, h2, h3, p { margin: 0; }
+    h1, h2 { font-family: Georgia, serif; font-weight: 500; letter-spacing: -.035em; line-height: 1.05; }
+    h1 { max-width: 17ch; font-size: clamp(2.8rem, 7vw, 5.25rem); }
+    h2 { margin-bottom: .65em; color: var(--ink); font-size: clamp(2.15rem, 4.7vw, 3.5rem); }
+    h3 { margin-bottom: .32rem; color: var(--ink); font-size: 1.15rem; line-height: 1.28; }
+    .location { margin-bottom: 1rem; color: #c8dfee; font-weight: 650; }
+    .intro p:last-child { max-width: 46ch; margin-top: 1.2rem; color: #e6eff4; font-size: 1.18rem; }
+    .section { padding-block: clamp(3.25rem, 7vw, 5.5rem); }
+    .about .wrap { display: grid; grid-template-columns: 1fr 1.7fr; gap: 1rem 3rem; align-items: start; }
+    .about h2 { margin-bottom: 0; }
+    .about p { max-width: 56ch; font-size: 1.12rem; }
+    .services { background: #eef3f6; }
+    .services-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; }
+    article { padding-top: .85rem; border-top: 1px solid var(--rule); }
+    footer { padding-block: 1.4rem; color: #e3edf3; background: #17354a; }
+    footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .65rem 1.5rem; }
+    address { font-style: normal; }
+    @media (max-width: 51rem) {
+      .about .wrap { grid-template-columns: 1fr; }
+      .services-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 35rem) {
+      .wrap { width: calc(100% - 2rem); }
+      .services-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header><div class="wrap">Northern Point Accountants</div></header>
+  <main>
+    <section class="intro" aria-labelledby="title">
+      <div class="wrap">
+        <p class="location">Chatswood, Sydney</p>
+        <h1 id="title">Tax and accounting for individuals and businesses</h1>
+        <p>Help with your tax obligations, day-to-day accounts and decisions about your business.</p>
+      </div>
+    </section>
+    <section class="section about" aria-labelledby="about-title">
+      <div class="wrap">
+        <h2 id="about-title">About Northern Point</h2>
+        <p>Northern Point Accountants is an accounting practice based in Chatswood. We work with individuals and business owners on the everyday work of keeping records and meeting lodgment deadlines, and on bigger decisions such as choosing a business structure or planning for a change in cash flow. We explain what the numbers mean so you can decide what to do next.</p>
+      </div>
+    </section>
+    <section class="section services" aria-labelledby="services-title">
+      <div class="wrap">
+        <h2 id="services-title">Services</h2>
+        <div class="services-grid">
+          <article><h3>Tax and Lodgments</h3><p>Tax returns for individuals and businesses, plus BAS and GST lodgments.</p></article>
+          <article><h3>Bookkeeping and Payroll</h3><p>Bank reconciliations, payroll and support with amounts owed to and by your business.</p></article>
+          <article><h3>Business Setup</h3><p>Guidance on sole trader, company and trust structures when starting or reorganising a business.</p></article>
+          <article><h3>Tax Planning and Advisory</h3><p>Discuss the tax implications of business decisions before you make them.</p></article>
+          <article><h3>Financial Modelling and CFO Support</h3><p>Budgets, cash flow forecasts and reporting to help you understand business performance.</p></article>
+          <article><h3>SMSF Accounting</h3><p>Accounting and tax reporting for self-managed superannuation funds.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <small>Northern Point Accountants Pty Ltd &middot; ABN 49 654 287 297</small>
+      <address><small>Ground Floor, 465 Victoria Avenue, Chatswood NSW 2067</small></address>
+    </div>
+  </footer>
+</body>
+</html>
